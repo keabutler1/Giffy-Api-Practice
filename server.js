@@ -6,7 +6,6 @@
     axios = require('axios'),
     PORT = 3000
 
-    // const apiKey = "8qglHQgY2LieSTaPPItvcQlF84SF7C14"
     //   builds an object that can make HTTP requests:
     const apiClient = axios.create()
     app.get("/", (req, res) => {
